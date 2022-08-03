@@ -1,0 +1,7 @@
+{
+  "name": "paguei-barato",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
