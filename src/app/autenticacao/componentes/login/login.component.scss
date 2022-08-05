@@ -20,6 +20,7 @@ h1{
 }
 
 label{
+    color: black;
     display: block;
     font-size: 14px;
     font-weight: 700;
@@ -44,4 +45,18 @@ input{
 
 input::placeholder{
     color: #A3A3A3;
+}
+
+.button-primary{
+    background-color: #27FB6B;
+    font-weight: 700;
+    height: 40px;
+    width: 40%;
+}
+
+.button-secondary{
+    background-color: #F5F5F5;
+    font-weight: 700;
+    height: 40px;
+    width: 30%;
 }
