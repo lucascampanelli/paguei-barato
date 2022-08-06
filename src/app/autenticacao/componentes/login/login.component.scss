@@ -1,62 +1,137 @@
+/*
+* Componente superior do login
+*/	
+
 .container-login{
     width: 100%;
 }
 
+/*
+* Estilo da imagem de capa
+*/
+
 .capa-container{
     width: 100%;
-    height: 10%;
+    height: 37%;
 }
 
+.capa-container img{
+    width: 100%;
+}
+
+/*
+* Seção que engloba os demais componentes
+*/
+
+.secao-formulario{
+    padding: 20px;
+}
+
+/*
+* Estilo da imagem da logo
+*/
+
 .logo{
-    width: 60%;
-    margin-top: 12px;
-    margin-left: 15px;
+    width: 49.14%;
 }
 
 h1{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
-    margin-left: 15px;
+    margin: 24px 0 32px 0;
 }
+
+/*
+*   Estilos dos componentes do formulário 
+*/
 
 label{
     color: black;
     display: block;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
-    margin-left: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .input-box{
-    width: 86%;
-    margin-left: 15px;
-    margin-bottom: 12px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
     border-radius: 12px;
-    justify-content: space-around;
     background-color: #F5F5F5;
+}
+
+.input-box img{
+    margin-left: 15.33px;
 }
 
 input{
     border: none;
-    margin-left: 15px;
     background-color: #F5F5F5;
+    margin-left: 11.33px;
+    width: 100%;
+    padding-right: 14px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 input::placeholder{
     color: #A3A3A3;
+    font-weight: 400;
+}
+
+/*
+*   Estilos dos botões
+*/
+
+.container-buttons{
+    display: flex;
+    justify-content: space-around;
 }
 
 .button-primary{
     background-color: #27FB6B;
     font-weight: 700;
-    height: 40px;
-    width: 40%;
+    height: 37px;
+    width: 53%;
+    border-radius: 16px;
+    padding-left: 15px;
+    text-align: left;
 }
 
 .button-secondary{
     background-color: #F5F5F5;
     font-weight: 700;
-    height: 40px;
-    width: 30%;
+    height: 37px;
+    width: 40%;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.container-visitante{
+    display: flex;
+    justify-content: space-around;
+}
+
+.guest{
+    width: 100%;
+    text-align: left;
+    padding-left: 15px;
+}
+
+/*
+*  Estilos do separador de botões
+*/
+
+.separador-acoes{
+    text-align: center;
+    width: 100%;
+    color: #A3A3A3;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
