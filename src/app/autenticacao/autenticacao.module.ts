@@ -8,8 +8,6 @@ import { AutenticacaoPageRoutingModule } from './autenticacao-routing.module';
 
 import { AutenticacaoPage } from './autenticacao.page';
 
-import { LoginComponent } from './componentes/login/login.component';
-
 @NgModule({
   imports: [
     CommonModule,
@@ -17,6 +15,6 @@ import { LoginComponent } from './componentes/login/login.component';
     IonicModule,
     AutenticacaoPageRoutingModule,
   ],
-  declarations: [AutenticacaoPage, LoginComponent]
+  declarations: [AutenticacaoPage]
 })
 export class AutenticacaoPageModule {}
